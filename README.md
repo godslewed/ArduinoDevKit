@@ -1,6 +1,6 @@
 # Arduino Dev Kit 2-Layer PCB
 
-## 📌 Introduction
+##  Introduction
 
 **Arduino Dev Kit 2-Layer PCB** is a versatile, entry-level development board designed specifically for educational purposes and soldering workshops. Based on the popular **ATmega328P** microcontroller, it serves as a robust platform for students to learn both hardware assembly and embedded programming.
 
@@ -8,7 +8,7 @@ The board mirrors the classic **Arduino Nano** pinout and functionality but feat
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 
 - Introduction  
 - Project Overview  
@@ -23,7 +23,7 @@ The board mirrors the classic **Arduino Nano** pinout and functionality but feat
 
 ---
 
-## 🧩 Project Overview
+##  Project Overview
 
 The goal of this project is to provide a comprehensive **educational soldering kit** that results in a fully functional Arduino-compatible development board. Key objectives include:
 
@@ -35,7 +35,7 @@ The goal of this project is to provide a comprehensive **educational soldering k
 
 ---
 
-## ⚙️ Key Features
+##  Key Features
 
 - **Microcontroller:** ATmega328P (8-bit AVR).
 - **USB-to-Serial:** CH340 interface for seamless programming.
@@ -49,7 +49,7 @@ The goal of this project is to provide a comprehensive **educational soldering k
 
 ---
 
-## 🧠 System Architecture
+##  System Architecture
 
 The board architecture focuses on simplicity and accessibility:
 
@@ -58,9 +58,11 @@ The board architecture focuses on simplicity and accessibility:
 - **I/O Logic:** All GPIOs are broken out to standard 2.54mm pitch headers.
 - **Feedback Loop:** Dedicated traces connect specific GPIOs to the onboard buzzer and LEDs.
 
+<img width="1747" height="1156" alt="Screenshot 2026-02-11 154807" src="https://github.com/user-attachments/assets/b7d022e7-f97a-47a6-982e-c4d25b382d53" />
+
 ---
 
-## 🔧 Hardware Components
+##  Hardware Components
 
 | Component | Description |
 |-----------|-------------|
@@ -72,9 +74,11 @@ The board architecture focuses on simplicity and accessibility:
 | **Oscillator** | 16MHz Crystal / Resonator |
 | **Voltage Regulator** | 5V and 3.3V LDOs for stable operation |
 
+<img width="1208" height="903" alt="Screenshot 2026-02-11 154814" src="https://github.com/user-attachments/assets/33567e8d-456e-429b-946f-79df36f67c59" />
+
 ---
 
-## 🔌 Interfaces and Connections
+##  Interfaces and Connections
 
 ### GPIO Headers
 - **Digital Pins:** D0 - D13 (including PWM support).
@@ -90,7 +94,7 @@ The board architecture focuses on simplicity and accessibility:
 
 ---
 
-## 🔋 Power Supply
+##  Power Supply
 
 - **Input:** 5V via USB-C.
 - **On-board Regulation:** - **5V Rail:** Direct from USB or via LDO.
@@ -99,7 +103,7 @@ The board architecture focuses on simplicity and accessibility:
 
 ---
 
-## 🛠 Installation & Assembly
+##  Installation & Assembly
 
 1. **PCB Fabrication:** Order the 2-layer board using the provided Gerber files.
 2. **USB-C & CH340:** Solder the USB-C connector and the CH340 chip first (finer pitch).
@@ -110,7 +114,7 @@ The board architecture focuses on simplicity and accessibility:
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 1. Connect the board to a PC using a **USB-C cable**.
 2. Install the **CH340 drivers** if not already present on your system.
@@ -121,7 +125,7 @@ The board architecture focuses on simplicity and accessibility:
 
 ---
 
-## 🧪 Troubleshooting
+##  Troubleshooting
 
 | Issue | Possible Cause |
 |-------|----------------|
